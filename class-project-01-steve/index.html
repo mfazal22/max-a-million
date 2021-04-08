@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>So you want to surf</title>
+</head>
+<body>
+    <header class="jumbotron">
+       <h1>Find a surf spot</h1>
+    </header>
+
+    <main class="flex-row">
+    <div class="col-3 search_group">
+        <h2>Search for a City:</h2>
+        <form id="user-form">
+            <input name="city" id="cityInput" type="text" autofocus="true" placeholder="Enter City Name"/>
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div id="search-history">
+        
+        </div>
+        <button class="modal-btn">Subscribe</button>
+    </div>
+
+    <div class="col-9" id="main-box">
+        <div class="col-9" id="content-box">
+            
+        </div>
+
+        <div class="col-9">
+            <h2>5-Day Forecast: </h2>
+            <div class="flex-row justify-space-between" id="forecast_box">
+                
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <div class="modal-bg">
+        <div class="modal">
+            <h2>Subscribe to our Newsletter</h2>
+            <label for="Name">Name: </label>
+            <input type="text" name="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <label for="Height">Height: </label>
+            <input type="text" name="Height">
+            <label for="Weight">Weight: </label>
+            <input type="text" name="Weight">
+            <label for="Location">Location: </label>
+            <input type="text" name="Location">
+            <label for="Contact#">Contact#: </label>
+            <input type="text" name="Contact#">
+            <button>Join Us</button>
+            <span class="modal-close">X</span>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
